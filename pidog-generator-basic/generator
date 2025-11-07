@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar target/pidog-generator-basic-1.0-SNAPSHOT-jar-with-dependencies.jar "$@"
+java -Dfile.encoding=UTF-8 -jar target/pidog-generator-basic-1.0-SNAPSHOT-jar-with-dependencies.jar "$@"
