@@ -3,12 +3,9 @@ package com.pidog.cli.command;
 import cn.hutool.core.util.ReflectUtil;
 import com.pidog.model.config.MainTemplateConfig;
 import lombok.Data;
-import picocli.CommandLine;
 import picocli.CommandLine.Command;
-import picocli.CommandLine.Option;
 
 import java.lang.reflect.Field;
-import java.util.concurrent.Callable;
 
 /**
  * @ClassName: ConfigCommand
